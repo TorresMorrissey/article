@@ -9,13 +9,9 @@ const commentSchema = new Schema({
     link: {
         type: String,
         require: true
-    },
-    note: {
-        type: Schema.ObjectId,
-        ref: "Note"
     }
 });
 
-let comment = mongoose.model("Note", commentSchema);
+let comment = mongoose.model("Comment", commentSchema);
 
 module.exports = comment;
