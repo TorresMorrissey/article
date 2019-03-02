@@ -29,7 +29,7 @@ app.use(express.static("public"));
 
 // // Connect to the Mongo DB
 // ***********
-mongoose.connect("mongodb://localhost/article", { useNewUrlParser: true });
+mongoose.connect("mongodb://heroku_0n01223p:gepum4i99sk3tfi29figrpkgsr@ds157895.mlab.com:57895/heroku_0n01223p", { useNewUrlParser: true });
 // ************
 // Routes
 
